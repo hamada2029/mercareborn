@@ -1,0 +1,26 @@
+
+@keyframes blink{
+    0% {opacity:0.2;}
+    100% {opacity:1;}
+}
+
+.opaopa{
+    animation:blink 1s ease-in-out infinite alternate !important;
+}
+
+
+#myBtn1{
+    position: fixed;
+    background: red;
+    color: white;
+    top: 10%;
+    right: 3%;
+    width: 10%;
+    /*height: 5%;*/
+    /*font-size: 0.8rem;*/
+    /*font-weight: bold;*/
+    display: none;
+}
+
+
+
